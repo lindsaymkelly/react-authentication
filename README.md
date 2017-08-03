@@ -2,6 +2,8 @@
 
 For my technical assessment, I chose to build the Authentication Server.  This application is built on React.js and was initially set up using [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Styled with the help of the [Bootstrap framework](http://getbootstrap.com/).
+
 Other dependencies are as follows:
 
 * [auth0-js](https://auth0.com/docs/quickstart/spa/react)
