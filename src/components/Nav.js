@@ -17,7 +17,13 @@ export default class Nav extends Component {
           </li>
           <li>
             {
-              ( isLoggedIn() ) ? <Link to="/special">Dashboard</Link> : ''
+              ( isLoggedIn() ) ? <Link to="/about-project">About Project</Link> : ''
+            }
+
+          </li>
+          <li>
+            {
+              ( isLoggedIn() ) ? <Link to="/about-me">About Lindsay</Link> : ''
             }
 
           </li>

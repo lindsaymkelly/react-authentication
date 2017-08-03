@@ -2,3 +2,9 @@
 .log {
   margin: 5px 10px 0 0;
 }
+
+#override {
+  background: #83A8B2;
+  font: #213A40;
+  font-family: "Verdana";
+}

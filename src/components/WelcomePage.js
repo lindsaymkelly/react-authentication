@@ -8,15 +8,15 @@ export default class WelcomePage extends Component{
     return (
       <div className="container">
         <Nav />
-        <h1>Welcome!</h1>
-        <p>
+        <h1 className="text-center">Welcome!</h1>
+        <p className="text-center">
           My name is Lindsay Kelly and this is my submission for the Konica Minolta Technical Assessment.  To learn more about me and my approach to this challenge, why not login or create an account?
         </p>
         <div className="col-sm-12">
           { isLoggedIn() ? 
           <div className="jumbotron text-center">
             <h2>See More About My Project</h2>
-            <Link className="btn btn-lg btn-success" to='/special'> Learn More </Link>
+            <Link className="btn btn-lg btn-success" to='/about-project'> Learn More </Link>
           </div> : <div className="jumbotron text-center"><h2>Create An Account Or Log In To Learn More</h2></div>
           }
         </div>
