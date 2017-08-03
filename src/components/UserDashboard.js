@@ -6,6 +6,7 @@ export default class UserDashboard extends Component{
   render(){
     return (
     <div className="container">
+      <Nav />
       <h1>User Dashboard</h1>
       <p>
         Insert explanation to approach here
